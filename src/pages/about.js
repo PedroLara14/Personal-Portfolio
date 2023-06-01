@@ -58,13 +58,13 @@ const about = () => {
                 with a strong drive for web design and creation. Always seeking
                 new horizons and experiences, Pedro strives to improve both
                 professionally and personally. With a solid background in web
-                development and extensive experience in the field, Pedro's
+                development and extensive experience in the field, His
                 passion for web development propels him to stay up-to-date with
                 the latest trends and technologies, constantly seeking
                 opportunities for growth in his career.
               </p>
               <p className="mt-4 font-medium">
-                Pedro's dedication extends beyond the professional realm as he
+                His dedication extends beyond the professional realm as he
                 strives for personal growth. He is always ready to face
                 challenges and overcome obstacles.
               </p>
