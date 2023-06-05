@@ -48,7 +48,7 @@ const FeaturedProject = ({type, title, summary, image, link, githubLink}) => {
         <div className="mt-2 flex items-center">
           <Link
             className="rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold dark:bg-light dark:text-dark sm:px-4 sm:text-base"
-            href={githubLink}
+            href={link}
             target="_blank"
           >
             Visit The Project
@@ -90,7 +90,7 @@ const Project = ({ title, type, image, link, githubLink }) => {
         <div className="w-full mt-2 flex items-center justify-between">
           <Link
             className="text-lg font-semibold underline md:text-base"
-            href={githubLink}
+            href={link}
             target="_blank"
           >
             Visit
