@@ -10,6 +10,7 @@ import RickAndMortyProjectImg from "../../public/images/projects/rick-and-morty-
 import eCommerceProjectImg from "../../public/images/projects/eCommerceProjectImg.png"
 import WeatherAppProjectImg from "../../public/images/projects/WeatherAppProjectImg.png"
 import FortuneCookiesProjectImg from "../../public/images/projects/FortuneCookiesProjectImg.png"
+import UsersCrudProjectImg from "../../public/images/projects/UsersCrudProjectImg.png";
 import TransitionEffect from '@/components/TransitionEffect';
 
 const FramerImage = motion(Image);
@@ -128,6 +129,15 @@ const projects = () => {
                 image={RickAndMortyProjectImg}
                 link="https://pedro-rick-and-mory-react-app.netlify.app/"
                 githubLink="https://github.com/PedroLara14/Rick-And-Morty-APP"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                type="Website"
+                title="Users CRUD App"
+                image={UsersCrudProjectImg}
+                link="https://pedro-lara-users-crud-app.netlify.app/"
+                githubLink="https://github.com/PedroLara14/users-crud-react-app"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
