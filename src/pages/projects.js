@@ -11,6 +11,8 @@ import eCommerceProjectImg from "../../public/images/projects/eCommerceProjectIm
 import WeatherAppProjectImg from "../../public/images/projects/WeatherAppProjectImg.png"
 import FortuneCookiesProjectImg from "../../public/images/projects/FortuneCookiesProjectImg.png"
 import UsersCrudProjectImg from "../../public/images/projects/UsersCrudProjectImg.png";
+import PokedexProjectImg from "../../public/images/projects/PokedexProjectImg.png";
+import eCommerceReactProjectImg from "../../public/images/projects/eCommerceReactProjectImg.png";
 import TransitionEffect from '@/components/TransitionEffect';
 
 const FramerImage = motion(Image);
@@ -134,6 +136,24 @@ const projects = () => {
             <div className="col-span-6 sm:col-span-12">
               <Project
                 type="Website"
+                title="React Ecommerce App"
+                image={eCommerceReactProjectImg}
+                link="https://react-ecommerce-pedro.netlify.app/"
+                githubLink="https://github.com/PedroLara14/React-Ecommerce"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                type="Website"
+                title="Pokedex App"
+                image={PokedexProjectImg}
+                link="https://pokedex-by-pedro.netlify.app/"
+                githubLink="https://github.com/PedroLara14/pokedex-app"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                type="Website"
                 title="Users CRUD App"
                 image={UsersCrudProjectImg}
                 link="https://pedro-lara-users-crud-app.netlify.app/"
@@ -161,7 +181,7 @@ const projects = () => {
             <div className="col-span-6 sm:col-span-12">
               <Project
                 type="Website"
-                title="eCommerce with JavaScript and MixItUp"
+                title="eCommerce with Vanilla JavaScript and MixItUp"
                 image={eCommerceProjectImg}
                 link="https://shopping-cart-pedrolara.netlify.app/"
                 githubLink="https://github.com/PedroLara14/ShoppingCart-Academlo-Gen-26-Vanilla-JS-Project"
